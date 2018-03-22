@@ -1,0 +1,23 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a></a><%= link_to 'Gamma', public_designs_photo_sharing_app_index_path, class: 'navbar-brand em-text' %></a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+					<li><%= link_to 'Home', public_designs_photo_sharing_app_index_path %></li>
+					<li><%= link_to 'About', public_designs_photo_sharing_app_about_path %></li>
+					<li><%= link_to 'Contact', public_designs_photo_sharing_app_contact_path %></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to 'Return to JBL', root_path, class: 'jbl-btn' %></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>

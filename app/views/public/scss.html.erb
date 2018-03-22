@@ -1,0 +1,526 @@
+/* search results mock-up */
+body.public.index .container{
+  max-width:970px !important;
+  width:100% !important;
+}
+#refine_search{
+  border:1px solid #aaa;
+  .rs-category{
+    
+  }
+  .rs-category-header{
+    font-size:14px;
+    background-color:#536f83;
+    color:#fff;
+    padding:5px;
+  }
+  .rs-remove-field{
+    padding:5px;
+  }
+  .rs-items-header{
+    font-size:13px;
+    background-color:#ddd;
+    padding:5px;
+  }
+  .rs-items{
+    
+  }
+  .rs-item{
+    font-size:13px;
+    width:100%;
+    padding:5px;
+    display:flex;
+  }
+  .rs-item-label{
+  
+  }
+  .rs-item-count{
+    flex:1;
+    text-align:right;
+  }
+}
+
+#search_results{
+  
+  .table-sr-info{
+    
+    th{
+      background-color:#536f83;
+      color:#fff;
+    }
+    td{
+      background-color:#f3f4f5;
+    }
+  }
+  a.show-hide-info{
+    color:orange;
+  }
+  td.sr-additional-info{
+    background-color:#fff;
+    padding:15px;
+    
+    table{
+      margin-bottom:0;
+      
+      th{
+        background-color:#c3cdd3;
+        color:#536f83;
+      }
+    }
+  }
+}
+
+/* main container */
+.container-main{
+  margin-bottom:80px;
+}
+/* footer */
+.application-footer {
+  padding-top:10px;
+  padding-bottom:10px;
+  color:#9d9d9d;
+  height:40px;
+  margin-top:-40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript"> 
+function toggleExtraInfo (id)
+{
+  container = $('#' + id)
+  container.toggle();
+}
+</script>
+
+<div class="jumbotron">
+  <h4>Instructions on what to do with the search results below. Please read 
+  carefully before taking any action.</h4>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    Search Result Icons <i class="fa fa-info-circle"></i>
+    
+    <div class="pull-right">
+      <a href="#" class="btn btn-danger">Clear Search</a>
+      <a href="#" class="btn btn-primary">Clear Search</a>
+    </div>
+  </div>
+</div>
+<br />
+<div class="row">
+  <div class="col-md-3 col-sm-3">
+    <div id="refine_search">
+      
+      <div class="rs-category">
+        
+        <div class="rs-category-header">
+          Broaden Your Search
+        </div>
+        
+        <div class="rs-remove-field">
+          51 Industry
+          <span class="pull-right"><i class="fa fa-minus-circle"></i></span>
+        </div>  
+        
+      </div>
+      
+      <div class="rs-category">
+        
+        <div class="rs-category-header">
+          Narrow Your Search
+        </div>
+        
+        <div class="rs-items-header">
+          Profession
+        </div>
+        <div class="rs-items">
+          <div class="rs-item">
+            <div class="rs-item-label">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Database Administrator
+              </label>
+            </div>
+            <div class="rs-item-count">8</div>
+          </div>
+          <div class="rs-item">
+            <div class="rs-item-label">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Business Intelligence Analysts Expert 
+              </label>
+            </div>
+            <div style="rs-item-count">6</div>
+          </div>
+          <div class="rs-item">
+            <div class="rs-item-label">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Software Tester
+              </label>
+            </div>
+            <div class="rs-item-count">5</div>
+          </div>
+          <div class="rs-item">
+            <div class="rs-item-label">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Program Analyst
+              </label>
+            </div>
+            <div class="rs-item-count">2</div>
+          </div>
+        </div>
+        
+        <div class="rs-items-header">
+          Pricing
+        </div>
+        <div class="rs-items">
+          <div class="rs-item">
+            <div class="rs-item-label">
+               <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> C ($61 - $80 per hour)
+              </label>
+            </div>
+            <div class="rs-item-count">12</div>
+          </div>
+          <div class="rs-item">
+            <div class="rs-item-label">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> D ($81 - $100 per hour)
+              </label>
+            </div>
+            <div class="rs-item-count">9</div>
+          </div>
+          <div class="rs-item">
+            <div class="rs-item-label">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> E (> $100 per hour)
+              </label>
+            </div>
+            <div class="rs-item-count">7</div>
+          </div>
+          <div class="rs-item">
+            <div class="rs-item-label">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> B ($40 - $60 per hour)
+              </label>
+            </div>
+            <div class="rs-item-count">3</div>
+          </div>
+        </div>
+        
+        <div class="rs-items-header">
+          Travel %
+        </div>
+        <div class="rs-items">
+          <div class="rs-item">
+            <div class="rs-item-label">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 0%
+              </label>
+            </div>
+            <div class="rs-item-count">10</div>
+          </div>
+          <div class="rs-item">
+            <div class="rs-item-label">
+               <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 20%
+              </label>
+            </div>
+            <div class="rs-item-count">7</div>
+          </div>
+          <div class="rs-item">
+            <div class="rs-item-label">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 70%
+              </label>
+            </div>
+            <div class="rs-item-count">4</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-9 col-sm-9">
+    <div id="search_results" class="table-responsive">
+      <table class="table table-bordered table-condensed table-sr-info">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Profession</th>
+            <th>Industry</th>
+            <th>Available Range(s)</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="" class="show-hide-info" onclick="toggleExtraInfo('talent_220_detail'); return false;">220</a></td>
+            <td>Database Administrator</td>
+            <td>51 Information</td>
+            <td>March 1, 2017 until<br>March 1, 2018</td>
+            <td>View</td>
+          </tr>
+          <tr style="display:none;" id="talent_220_detail">
+            <td colspan="5" class="sr-additional-info">
+              <table class="table table-bordered table-condensed">
+                <thead>
+                  <tr>
+                    <th>Pricing</th>
+                    <th>Willing to Travel</th>
+                    <th>Telecommuting</th>
+                    <th>Zipcode</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>B ($40 - $60 per hour)</td>
+                    <td>10%</td>
+                    <td>Desired</td>
+                    <td>23847</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th>Clearance Level</th>
+                    <th>Agency</th>
+                    <th>Status</th>
+                    <th>Investigation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Confidential</td>
+                    <td>Department of Defense (DOD)</td>
+                    <td>Active</td>
+                    <td>Advance National Agency Check with Inquiries</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                    <th>Years</th>
+                    <th>Project Size</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HTML</td>
+                    <td>Novice</td>
+                    <td>3</td>
+                    <td>$250,000 - $500,000</td>
+                  </tr>
+                  <tr>
+                    <td>Javascript</td>
+                    <td>Novice</td>
+                    <td>2</td>
+                    <td>$250,000 - $500,000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="" class="show-hide-info" onclick="toggleExtraInfo('talent_221_detail'); return false;">221</a></td>
+            <td>Business Intelligence Analysts</td>
+            <td>51 Information</td>
+            <td>April 3, 2017 until<br>August 1, 2018</td>
+            <td>View</td>
+          </tr>
+          <tr style="display:none;" id="talent_221_detail">
+            <td colspan="5" class="sr-additional-info">
+              <table class="table table-bordered table-condensed">
+                <thead>
+                  <tr>
+                    <th>Pricing</th>
+                    <th>Willing to Travel</th>
+                    <th>Telecommuting</th>
+                    <th>Zipcode</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>D ($81 - $100 per hour)</td>
+                    <td>4%</td>
+                    <td>Not Desired</td>
+                    <td>20151</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th>Clearance Level</th>
+                    <th>Agency</th>
+                    <th>Status</th>
+                    <th>Investigation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Secret</td>
+                    <td>Department of Defense (DOD)</td>
+                    <td>Active</td>
+                    <td>Advance National Agency Check with Inquiries</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                    <th>Years</th>
+                    <th>Project Size</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Database Redesign</td>
+                    <td>Competent</td>
+                    <td>5</td>
+                    <td>$500,000 - $1,000,000</td>
+                  </tr>
+                  <tr>
+                    <td>Database Clustering</td>
+                    <td>Competent</td>
+                    <td>6</td>
+                    <td>$500,000 - $1,000,000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="" class="show-hide-info" onclick="toggleExtraInfo('talent_222_detail'); return false;">222</a></td>
+            <td>Software Tester</td>
+            <td>51 Information</td>
+            <td>January 25, 2017 until<br>December 31, 2018</td>
+            <td>View</td>
+          </tr>
+          <tr style="display:none;" id="talent_222_detail">
+            <td colspan="5" class="sr-additional-info">
+              <table class="table table-bordered table-condensed">
+                <thead>
+                  <tr>
+                    <th>Pricing</th>
+                    <th>Willing to Travel</th>
+                    <th>Telecommuting</th>
+                    <th>Zipcode</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>E (>$100 per hour)</td>
+                    <td>30%</td>
+                    <td>Desired</td>
+                    <td>12345</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="" class="show-hide-info" onclick="toggleExtraInfo('talent_223_detail'); return false;">223</a></td>
+            <td>Program Analyst</td>
+            <td>51 Information</td>
+            <td>July 1, 2017 until<br>November 31, 2018</td>
+            <td>View</td>
+          </tr>
+          <tr style="display:none;" id="talent_223_detail">
+            <td colspan="5" class="sr-additional-info">
+              <table class="table table-bordered table-condensed">
+                <thead>
+                  <tr>
+                    <th>Pricing</th>
+                    <th>Willing to Travel</th>
+                    <th>Telecommuting</th>
+                    <th>Zipcode</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>C ($61 - $80 per hour)</td>
+                    <td>0%</td>
+                    <td>Not Desired</td>
+                    <td>22030</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                    <th>Years</th>
+                    <th>Project Size</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Large Scale Data Warehousing</td>
+                    <td>Expert</td>
+                    <td>10</td>
+                    <td>$ >= $1,000,001</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="" class="show-hide-info" onclick="toggleExtraInfo('talent_224_detail'); return false;">224</a></td>
+            <td>Database Architect</td>
+            <td>51 Information</td>
+            <td>October 1, 2017 until<br>October 1, 2018</td>
+            <td>View</td>
+          </tr>
+          <tr style="display:none;" id="talent_224_detail">
+            <td colspan="5" class="sr-additional-info">
+              <table class="table table-bordered table-condensed">
+                <thead>
+                  <tr>
+                    <th>Pricing</th>
+                    <th>Willing to Travel</th>
+                    <th>Telecommuting</th>
+                    <th>Zipcode</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>E (>$100 per hour)</td>
+                    <td>10%</td>
+                    <td>Desired</td>
+                    <td>20151</td>
+                  </tr>
+                </tbody>
+                <thead>
+                  <tr>
+                    <th>Clearance Level</th>
+                    <th>Agency</th>
+                    <th>Status</th>
+                    <th>Investigation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Confidential</td>
+                    <td>Department of Justice (DOJ)</td>
+                    <td>Current</td>
+                    <td>Advance National Agency Check with Inquiries</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

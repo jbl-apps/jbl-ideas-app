@@ -11,6 +11,13 @@
 // about supported directives.
 //
 //= require jquery
+//= require bootstrap-sprockets
 //= require jquery_ujs
+//= require jquery.magnific-popup.min
+//= require jquery.waypoints.min
+//= require jquery.counterup.min
+//= require jquery.easing.1.3
+//= require owl.carousel.min
+//= require wow.min
 //= require turbolinks
-//= require_tree .
+//= require_directory .

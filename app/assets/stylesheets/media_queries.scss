@@ -1,0 +1,30 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 768px) {
+  .dropdown-menu > .open > a, .dropdown-menu > .open > a:hover, .dropdown-menu > .open > a:focus {
+    background-color: #090909;
+    color: #fff;
+  }
+  .dropdown-submenu>a:after{
+    content: "\f0d7";
+    color:#9d9d9d;
+  }
+  .dropdown-submenu:hover>a:after{
+    color:#fff;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+}

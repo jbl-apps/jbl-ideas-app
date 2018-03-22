@@ -38,4 +38,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  # turns off the Rails asset pipeline log
+  config.assets.quiet = true
 end

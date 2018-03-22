@@ -1,0 +1,63 @@
+<%= render 'main_nav' %>
+	
+<div class="jumbotron">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1>Capture <span class="em-text">Life</span></h1>
+				<p>A fun and easy way to capture & share the life moments for you</p>
+				<%= link_to image_tag('photo_sharing_app/icon_app_store.png'), {}, class: 'app-btn' %>
+				<%= link_to image_tag('photo_sharing_app/icon_google_play.png'), {}, class: 'app-btn' %>
+			</div>
+			<div class="col-md-6">
+				<%= image_tag('photo_sharing_app/site_phone.png', class: 'showcase-img') %>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<section id="middle">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<%= image_tag('photo_sharing_app/demo1.jpg', class: 'demo') %>
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed leo semper, accumsan orci molestie, tincidunt ante.</p>
+				<a href="#" class="btn btn-default">Read more</a>
+			</div>
+			<div class="col-md-4">
+				<%= image_tag('photo_sharing_app/demo2.jpg', class: 'demo') %>
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed leo semper, accumsan orci molestie, tincidunt ante.</p>
+				<a href="#" class="btn btn-default">Read more</a>
+			</div>
+			<div class="col-md-4">
+				<%= image_tag('photo_sharing_app/demo3.jpg', class: 'demo') %>
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed leo semper, accumsan orci molestie, tincidunt ante.</p>
+				<a href="#" class="btn btn-default">Read more</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="feature">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h1>Gamma Features</h1>
+				<ul>
+					<li><i class="glyphicon glyphicon-ok"></i> Aliquam scelerisque</li>
+					<li><i class="glyphicon glyphicon-ok"></i> Venenatis vulputate</li>
+					<li><i class="glyphicon glyphicon-ok"></i> Aenean ut erat posuere</li>
+					<li><i class="glyphicon glyphicon-ok"></i> Pulvinar nibh quis</li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-md-offset-2">
+				<%= image_tag('photo_sharing_app/logo.png', class: 'big-logo') %>
+			</div>
+		</div>
+	</div>
+</section>
+
+<%= render 'footer_nav' %>

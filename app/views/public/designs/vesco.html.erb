@@ -1,0 +1,638 @@
+<!-- Home -->
+<% content_for :meta_seo do %>
+  <meta name="description" content=" Building modern responsive website with html5, css3, jQuery & bootstrap framework">
+  <meta name="keywords" content="HTML5, CSS3, jQuery, Web Design, Web Development, Responsive Website, Modern Website">
+<% end %>
+<% content_for :title do %>
+  Vesco
+<% end %>
+<% content_for :data_attributes do %>
+  data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65"
+<% end %>
+
+<header>
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="vesco-nav-wrapper">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#vesco-menu">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= link_to image_tag('vesco/logo.png'), public_designs_vesco_path, class: 'navbar-brand' %>
+        </div>
+        <div id="vesco-menu" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a class="smooth-scroll" href="#home">Home</a></li>
+            <li><a class="smooth-scroll" href="#services">Services</a></li>
+            <li><a class="smooth-scroll" href="#about">About</a></li>
+            <li><a class="smooth-scroll" href="#work">Work</a></li>
+            <li><a class="smooth-scroll" href="#team">Team</a></li>
+            <li><a class="smooth-scroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smooth-scroll" href="#pricing">Pricing</a></li>
+            <li><a class="smooth-scroll" href="#stats">Stats</a></li>
+            <li><a class="smooth-scroll" href="#clients">Clients</a></li>
+            <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section id="home">
+  <div id="home-cover" class="bg-parallax animated fadeIn">
+    <div id="home-content-box">
+      <div id="home-content-box-inner" class="text-center">
+        
+        <div id="home-heading" class="animated zoomIn">
+          <h3>
+            Watch Out<br/>
+            The Modern Responsive Website
+          </h3>
+        </div>
+        
+        <div id="home-btn" class="animated zoomIn">
+          <a href="#work" class="btn btn-lg btn-general btn-white smooth-scroll" role="button" title="View Our Work">
+            View Our Work
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="content-box">
+    
+    <div class="content-title animated wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+      <h3>Services</h3>
+      <div class="content-title-underline"></div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          
+          <div class="service-item animated wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="service-item-icon">
+              <i class="fa fa-paint-brush fa-3x"></i>
+            </div>
+            
+            <div class="service-item-title">
+              <h3>Web Design</h3>
+            </div>
+            
+            <div class="service-item-desc">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4 col-sm-6">
+
+          <div class="service-item animated wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="service-item-icon">
+              <i class="fa fa-laptop fa-3x"></i>
+            </div>
+            
+            <div class="service-item-title">
+              <h3>Web Development</h3>
+            </div>
+            
+            <div class="service-item-desc">
+              <p>Suspendisse eget metus nec risus pellentesque venenatis ut nec metus.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6">
+
+          <div class="service-item animated wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="service-item-icon">
+              <i class="fa fa-tablet fa-3x"></i>
+            </div>
+            
+            <div class="service-item-title">
+              <h3>Mobile Apps</h3>
+            </div>
+            
+            <div class="service-item-desc">
+              <p>Praesent malesuada, mi vel blandit rhoncus, erat eros lacinia lacus.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6">
+
+          <div class="service-item animated wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="service-item-icon">
+              <i class="fa fa-search fa-3x"></i>
+            </div>
+            
+            <div class="service-item-title">
+              <h3>SEO Optimization</h3>
+            </div>
+            
+            <div class="service-item-desc">
+              <p>Nulla id nulla varius tortor imperdiet euismod. Nulla tincidunt sem sit.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6">
+
+          <div class="service-item animated wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="service-item-icon">
+              <i class="fa fa-pencil-square-o fa-3x"></i>
+            </div>
+            
+            <div class="service-item-title">
+              <h3>UX Design</h3>
+            </div>
+            
+            <div class="service-item-desc">
+              <p>Nulla orci dolor, aliquam vel eros scelerisque, iaculis iaculis enim.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6">
+
+          <div class="service-item animated wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="service-item-icon">
+              <i class="fa fa-life-ring fa-3x"></i>
+            </div>
+            
+            <div class="service-item-title">
+              <h3>Support</h3>
+            </div>
+            
+            <div class="service-item-desc">
+              <p>Duis vestibulum pulvinar tellus, et hendrerit sem mollis et. Sed arcu felis.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <!-- About right side with diagonal bg parallax -->
+  <div id="about-bg-diagonal" class="bg-parallax">
+    
+  </div>
+  
+  <!-- About left side with content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div id="about-content-box">
+          <div id="about-content-box-outter">
+            <div id="about-content-box-inner">
+              
+              <div class="content-title animated wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3>About Vesco</h3>
+                <div class="content-title-underline"></div>
+              </div>
+              
+              <div id="about-desc" class="animated wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <p>Quisque volutpat ut nunc nec convallis. Mauris nec rutrum dui. Nulla non consequat ligula. Integer at feugiat ligula. Phasellus nulla magna, euismod ut orci sed, cursus interdum ipsum. Etiam consequat malesuada molestie. Maecenas pharetra tristique mauris ut dignissim.</p>
+              </div>
+              
+              <div id="about-btn" class="animated wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <a href="#work" class="btn btn-lg btn-general btn-blue smooth-scroll" role="button" title="View Work">Our Work</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="content-box">
+    <div class="content-title animated wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+      <h3>Our Work</h3>
+      <div class="content-title-underline"></div>
+    </div>
+    <div class="container-fluid">
+      <div class="row no-gutters animated wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="col-md-3 col-sm-4">
+          <div class="img-wrapper">
+            <%= link_to( image_tag('vesco/work/1.jpg', class: 'img-responsive'), image_path('vesco/work/1.jpg') ) %>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <div class="img-wrapper">
+            <%= link_to( image_tag('vesco/work/2.jpg', class: 'img-responsive'), image_path('vesco/work/2.jpg') ) %>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <div class="img-wrapper">
+            <%= link_to( image_tag('vesco/work/3.jpg', class: 'img-responsive'), image_path('vesco/work/3.jpg') ) %>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <div class="img-wrapper">
+            <%= link_to( image_tag('vesco/work/4.jpg', class: 'img-responsive'), image_path('vesco/work/4.jpg') ) %>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <div class="img-wrapper">
+            <%= link_to( image_tag('vesco/work/5.jpg', class: 'img-responsive'), image_path('vesco/work/5.jpg') ) %>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <div class="img-wrapper">
+            <%= link_to( image_tag('vesco/work/6.jpg', class: 'img-responsive'), image_path('vesco/work/6.jpg') ) %>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <div class="img-wrapper">
+            <%= link_to( image_tag('vesco/work/7.jpg', class: 'img-responsive'), image_path('vesco/work/7.jpg') ) %>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <div class="img-wrapper">
+            <%= link_to( image_tag('vesco/work/8.jpg', class: 'img-responsive'), image_path('vesco/work/8.jpg') ) %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team">
+  <div class="content-box">
+    <div class="content-title animated wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+      <h3>Our Team</h3>
+      <div class="content-title-underline"></div>
+    </div>
+    <div class="container">
+      <div class="row animated wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="col-md-12">
+          <div id="team-members" class="owl-carousel owl-theme">
+            <div class="team-member">
+              <%= image_tag('vesco/team/team-1.jpg', class: 'img-responsive', alt: 'team-member-1') %>
+              <div class="team-member-info text-center">
+                <h4 class="team-member-name">John Smith</h4>
+                <h4 class="team-member-designation">CEO</h4>
+                <ul class="social-list">
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-facebook"></i><% end %></li>
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-twitter"></i><% end %></li>
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-google-plus"></i><% end %></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-member">
+              <%= image_tag('vesco/team/team-2.jpg', class: 'img-responsive', alt: 'team-member-2') %>
+              <div class="team-member-info text-center">
+                <h4 class="team-member-name">Jane Smith</h4>
+                <h4 class="team-member-designation">Co-Founder</h4>
+                <ul class="social-list">
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-facebook"></i><% end %></li>
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-twitter"></i><% end %></li>
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-google-plus"></i><% end %></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-member">
+              <%= image_tag('vesco/team/team-3.jpg', class: 'img-responsive', alt: 'team-member-3') %>
+              <div class="team-member-info text-center">
+                <h4 class="team-member-name">Tim Williams</h4>
+                <h4 class="team-member-designation">Director of Technology</h4>
+                <ul class="social-list">
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-facebook"></i><% end %></li>
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-twitter"></i><% end %></li>
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-google-plus"></i><% end %></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-member">
+              <%= image_tag('vesco/team/team-4.jpg', class: 'img-responsive', alt: 'team-member-4') %>
+              <div class="team-member-info text-center">
+                <h4 class="team-member-name">David Johnson</h4>
+                <h4 class="team-member-designation">Sr. Developer</h4>
+                <ul class="social-list">
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-facebook"></i><% end %></li>
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-twitter"></i><% end %></li>
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-google-plus"></i><% end %></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-member">
+              <%= image_tag('vesco/team/team-5.jpg', class: 'img-responsive', alt: 'team-member-5') %>
+              <div class="team-member-info text-center">
+                <h4 class="team-member-name">Steven Jones</h4>
+                <h4 class="team-member-designation">Lead Designer</h4>
+                <ul class="social-list">
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-facebook"></i><% end %></li>
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-twitter"></i><% end %></li>
+                  <li><%= link_to "#", class: 'social-icon icon-gray' do %><i class="fa fa-google-plus"></i><% end %></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div id="testimonials-cover" class="bg-parallax">
+    <div class="content-box">
+      <div class="content-title content-title-white animated wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <h3>What Our Customers Say</h3>
+        <div class="content-title-underline"></div>
+      </div>
+      <div class="container">
+        <div class="row animated wow bounceInDown" data-wow-duration="1s" data-wow-delay=".5s">
+          <div class="col-md-12">
+            <div id="customers-testimonials" class="owl-carousel owl-theme text-center">
+              <div class="testimonial">
+                <%= image_tag('vesco/client/client-1.jpg', class: 'img-responsive img-circle', alt: 'client-1') %>
+                <blockquote>
+                  <p>Sed posuere posuere tortor, ut feugiat risus pulvinar non. Pellentesque enim tellus, vestibulum sit amet sem pellentesque, eleifend dictum erat. Phasellus molestie, lectus eu volutpat aliquam, arcu lacus finibus lectus, sit amet tempor magna odio vel mi. Sed at arcu et mauris molestie luctus. Nam quis nunc vitae sapien malesuada tempus vel in risus.</p>
+                </blockquote>
+                <div class="testimonial-author">
+                  <p><strong>Domenic Mckenzie</strong>
+                  <span>CEO & Founder - Widget Inc.</span></p>
+                </div>
+              </div>
+              <div class="testimonial">
+                <%= image_tag('vesco/client/client-2.jpg', class: 'img-responsive img-circle', alt: 'client-2') %>
+                <blockquote>
+                  <p>Integer sit amet tortor et nisi accumsan mollis. Pellentesque consequat laoreet nibh, non malesuada ante pellentesque at. Nulla auctor fringilla risus non dignissim. Donec pretium feugiat ipsum, ac interdum odio pharetra in. Etiam in nulla hendrerit, blandit nisi pulvinar, porttitor sapien. Donec accumsan sapien vitae justo luctus, vel vehicula lectus placerat.</p>
+                </blockquote>
+                <div class="testimonial-author">
+                  <p><strong>Jonas Goyette</strong>
+                  <span>CEO - ABC Designs Inc.</span></p>
+                </div>
+              </div>
+              <div class="testimonial">
+                <%= image_tag('vesco/client/client-3.jpg', class: 'img-responsive img-circle', alt: 'client-3') %>
+                <blockquote>
+                  <p>Praesent non felis luctus, lobortis dui quis, pharetra eros. Sed pulvinar luctus nibh, aliquet tristique augue lobortis ut. Aliquam nec sem aliquam, molestie sem ac, mollis nisl. Nulla luctus ex et purus aliquam finibus. Morbi sodales mattis arcu eu feugiat. Curabitur gravida nisl non arcu iaculis, eu auctor enim tempor.</p>
+                </blockquote>
+                <div class="testimonial-author">
+                  <p><strong>Kathryn Watson</strong>
+                  <span>President & CFO - Creative Mind, Inc.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="content-box">
+    <div class="content-title animated wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+      <h3>Our Pricing</h3>
+      <div class="content-title-underline"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 animated wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+          <div class="pricing-box text-center">
+            <h4 class="pricing-title">
+              Basic
+            </h4>
+            <h3 class="pricing-value">
+              49<sup>$</sup>
+            </h3>
+            <ul class="pricing-spec">
+              <li><p>500 emails</p></li>
+              <li><p>5GB Disk Space</p></li>
+              <li><p>5GB Bandwidth</p></li>
+              <li><p>UNLIMITED DOMAINS</p></li>
+            </ul>
+            <div class="pricing-btn">
+              <%= link_to 'Purchase', '#', class: 'btn btn-lg btn-general btn-blue' %>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 animated wow bounceInUp" data-wow-duration="1s" data-wow-delay=".5s">
+          <div class="pricing-box pricing-box-lg text-center ">
+            <h4 class="pricing-title">
+              Enterprise
+            </h4>
+            <h3 class="pricing-value">
+              89<sup>$</sup>
+            </h3>
+            <ul class="pricing-spec">
+              <li><p>2000 emails</p></li>
+              <li><p>25GB Disk Space</p></li>
+              <li><p>25GB Bandwidth</p></li>
+              <li><p>UNLIMITED DOMAINS</p></li>
+            </ul>
+            <div class="pricing-btn">
+              <%= link_to 'Purchase', '#', class: 'btn btn-lg btn-general btn-white' %>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 animated wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+          <div class="pricing-box text-center">
+            <h4 class="pricing-title">
+              Standard
+            </h4>
+            <h3 class="pricing-value">
+              69<sup>$</sup>
+            </h3>
+            <ul class="pricing-spec">
+              <li><p>1500 emails</p></li>
+              <li><p>15GB Disk Space</p></li>
+              <li><p>15GB Bandwidth</p></li>
+              <li><p>UNLIMITED DOMAINS</p></li>
+            </ul>
+            <div class="pricing-btn">
+              <%= link_to 'Purchase', '#', class: 'btn btn-lg btn-general btn-blue' %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <div id="stats-cover" class="bg-parallax">
+    <div class="content-box">
+      <div class="content-title content-title-white animated wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <h3>We Never Stop Improving</h3>
+        <div class="content-title-underline"></div>
+      </div>
+      <div class="container">
+        <div class="row text-center animated wow bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+          <div class="col-md-3 col-sm-6">
+            <div class="stats-item">
+              <i class="fa fa-cloud-download fa-5x"></i>
+              <h2><span class="counter">1640</span><span>+</span></h2>
+              <p>Downloads</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="stats-item">
+              <i class="fa fa-star fa-5x"></i>
+              <h2><span class="counter">2750</span><span>+</span></h2>
+              <p>Awards</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="stats-item">
+              <i class="fa fa-heart-o fa-5x"></i>
+              <h2><span class="counter">3800</span><span>+</span></h2>
+              <p>Likes</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="stats-item">
+              <i class="fa fa-check fa-5x"></i>
+              <h2><span class="counter">2910</span><span>+</span></h2>
+              <p>Recommended</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section id="clients">
+  <div class="content-box">
+    <div class="content-title animated wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+      <h3>Our Clients</h3>
+      <div class="content-title-underline"></div>
+    </div>
+    <div class="container">
+      <div class="row animated wow bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="col-md-12">
+          <div id="clients-list" class="owl-carousel owl-theme">
+            <div class="client">
+              <%= image_tag('vesco/client/logos/logo-1.jpg', class: 'img-responsive', alt: 'client-logo-1') %>
+            </div>
+            <div class="client">
+              <%= image_tag('vesco/client/logos/logo-2.jpg', class: 'img-responsive', alt: 'client-logo-2') %>
+            </div>
+            <div class="client">
+              <%= image_tag('vesco/client/logos/logo-3.jpg', class: 'img-responsive', alt: 'client-logo-3') %>
+            </div>
+            <div class="client">
+              <%= image_tag('vesco/client/logos/logo-4.jpg', class: 'img-responsive', alt: 'client-logo-4') %>
+            </div>
+            <div class="client">
+              <%= image_tag('vesco/client/logos/logo-5.jpg', class: 'img-responsive', alt: 'client-logo-5') %>
+            </div>
+            <div class="client">
+              <%= image_tag('vesco/client/logos/logo-6.jpg', class: 'img-responsive', alt: 'client-logo-6') %>
+            </div>
+            <div class="client">
+              <%= image_tag('vesco/client/logos/logo-7.jpg', class: 'img-responsive', alt: 'client-logo-7') %>
+            </div>
+            <div class="client">
+              <%= image_tag('vesco/client/logos/logo-8.jpg', class: 'img-responsive', alt: 'client-logo-8') %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="contact-left">
+            <h3>VESCO</h3>
+            <p>We believe in <strong>Simple, Clean & Modern</strong> Design Standards with Responsive Approach. Browse the amazing work of our company.</p>
+            <div id="contact-info">
+              <address>
+                <strong>Headquarters</strong><br>
+                <p>1220 North Jameison Dr, Suite 500<br>
+                Smithtown, NY 11787</p>
+              </address>
+              <div id="phone-fax-email">
+                <p>
+                  <strong>Phone:</strong> <span>434-555-2094</span><br>
+                  <strong>Fax:</strong> <span>434-555-2095</span><br>
+                  <strong>Email:</strong> <span>info@vesco.com</span>
+                </p>
+              </div>
+            </div>
+            <ul class="social-list">
+              <li><%= link_to "#", class: 'social-icon icon-white' do %><i class="fa fa-facebook"></i><% end %></li>
+              <li><%= link_to "#", class: 'social-icon icon-white' do %><i class="fa fa-twitter"></i><% end %></li>
+              <li><%= link_to "#", class: 'social-icon icon-white' do %><i class="fa fa-google-plus"></i><% end %></li>
+              <li><%= link_to "#", class: 'social-icon icon-white' do %><i class="fa fa-youtube-play"></i><% end %></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="contact-right">
+            <h3>Contact Us</h3>
+            <form action="#">
+              <input type="text" name="full-name" placeholder="Full Name" class="form-control">
+              <input type="text" name="email" placeholder="Email Address" class="form-control">
+              <textarea rows="5" name="message" placeholder="Message..." class="form-control"></textarea>
+              <div id="send-btn">
+                <%= link_to 'SEND', "#", {class: 'btn btn-lg btn-general btn-white', role: 'button'} %>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="footer-copyright">
+            <p>&copy; Copyright 2018 All Rights Reserved</p>
+          </div>
+        </div>
+        <div class="col-md-6 hidden-sm hidden-xs">
+          <div id="footer-menu">
+            <ul>
+              <li><a class="smooth-scroll" href="#home">Home</a>/</li>
+              <li><a class="smooth-scroll" href="#services">Services</a>/</li>
+              <li><a class="smooth-scroll" href="#work">Work</a>/</li>
+              <li><a class="smooth-scroll" href="#team">Team</a>/</li>
+              <li><a class="smooth-scroll" href="#testimonials">Testimonials</a>/</li>
+              <li><a class="smooth-scroll" href="#pricing">Pricing</a>/</li>
+              <li><a class="smooth-scroll" href="#stats">Stats</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button">
+    <i class="fa fa-angle-up"></i>
+  </a>
+</footer>
+<%= javascript_include_tag "bottom/vesco" %>

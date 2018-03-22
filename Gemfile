@@ -3,6 +3,13 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+gem 'devise'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass-extras'
+gem 'devise-bootstrap-views'
+gem "animate-rails"
+gem "font-awesome-rails"
+gem "awesome_print", require:"ap"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -43,6 +50,9 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem "better_errors"
+  gem "binding_of_caller"
 end
 
 group :production do
